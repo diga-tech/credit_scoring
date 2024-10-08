@@ -4,19 +4,31 @@ Muhammad Radiga Gubarda
 
 ## Credit Scoring
 
-### Overview
+## Domain Project (Background)
+
+Saat ini industri Perbankan dan Fintech mengalami kemajuan yang pesat seiring dengan kemajuan teknologi. Banyak product yang ditawarkan oleh perbankan dan Fintech seperti Tabungan, Deposito, serta Pinjaman. Pemberian pinjaman kepada individu atau perusahaan memiliki risiko gagal bayar. Rasio kredit NPL di Perbankan di Indonesia hingga Maret 2023 sebesar 2,49% . Hal tersebut membuat bank dan fintech dapat menghadapi kerugian yang tinggi akibat dari gagal bayar. Metode manual dalam menilai Credit Scoring memiliki kelemahan seperti rentan terhadap kesalahan , subjektivitas, dan butuh waktu. Hal tersebut membuat proses credit scoring tidaklah efisien.
+
+Source: https://ojk.go.id/id/kanal/perbankan/data-dan-statistik/laporan-profil-industri-perbankan/Documents/Laporan%20Surveillance%20Perbankan%20Indonesia%20-%20Triwulan%20I%202023.pdf
 
 ## Business Understanding
 
-# Problem Statement
+### Problem Statement
 
-Saat ini industri Perbankan dan Fintech mengalami kemajuan yang pesat seiring dengan kemajuan teknologi. Banyak product yang ditawarkan oleh perbankan dan Fintech seperti Tabungan, Deposito, serta Pinjaman. Pemberian pinjaman kepada individu atau perusahaan memiliki risiko gagal bayar. Hal tersebut membuat bank dan fintech dapat menghadapi kerugian yang tinggi akibat dari gagal bayar. Metode manual dalam menilai Credit Scoring memiliki kelemahan seperti rentan terhadap kesalahan , subjektivitas, dan butuh waktu. Hal tersebut membuat proses credit scoring tidaklah efisien.
+1. Pemberian pinjaman kepada individu atau perusahaan memiliki risiko gagal bayar yang dapat menimbulkan kerugian bagi bank dan fintech.
 
-# Goals
+2. Metode manual dalam menilai credit scoring rentan terhadap kesalahan, memiliki tingkat subjektivitas yang tinggi, dan memerlukan waktu untuk diproses.
 
-Proyek ini bertujuan untuk membuat model prediksi yang dapat membantu Perbankan memberikan pinjaman ke konsumen dengan lebih efektif dan efisien. Dengan model ini, perbankan bisa memberikan keputusan yang lebih objektif dan efisien, serta mengurangi risiko nasabah gagal bayar. Model ini akan mempertimbangkan banyak faktor, seperti usia, pendapatan tahunan, gaji bulanan, jumlah rekening bank, kartu kredit, suku bunga, jumlah pinjaman, keterlambatan pembayaran, perubahan limit kredit, utang yang belum terbayar, rasio pemakaian kredit, cicilan per bulan, investasi bulanan, saldo bulanan, usia riwayat kredit, jenis kredit, perilaku pembayaran, skor kredit, hingga pekerjaan konsumen.
+3. Proses penilaian credit scoring manual tidak efisien yang dapat menghambat keputusan pinjaman yang cepat dan akurat.### Goals
 
-# Solution
+### Goals
+
+1. Mengurangi Risiko Gagal Bayar: Membuat model prediktif yang dapat membantu perbankan dan fintech mengidentifikasi nasabah dengan risiko gagal bayar rendah, sehingga dapat mengurangi kerugian.
+
+2. Meningkatkan Efisiensi Penilaian Kredit: Mengembangkan sistem berbasis data yang otomatis dan akurat untuk memberikan penilaian credit scoring secara objektif, mengurangi subjektivitas, serta mempercepat proses pengambilan keputusan pinjaman.
+
+3. Mengoptimalkan Pemberian Pinjaman dengan mempertimbangkan berbagai faktor seperti pendapatan, keterlambatan pembayaran, dan riwayat kredit untuk mengurangi tingkat kesalahan dalam penilaian.
+
+### Solution
 
 Menggunakan empat model untuk membandingkan dan memberikan solusi yang terbaik dalam membuat Credit Scoring Predictive yang efektif dan efisien. Adapun model yang digunakan adalah Random Forest, Logistic Regresion, Decision Tree, dan Gradien Boosting. Metrik evaluasi menggunakan Mean Squared Error (MSE) untuk mengukur seberapa besar model salah dalam melakukan predictive sementara R-squared digunakan untuk mengetahui seberapa baik model dalam mengevaluasi pola data.
 
@@ -82,7 +94,7 @@ Monthly_Balance: Jumlah saldo bulanan.
 
 Credit_Score: Credit score konsumen.
 
-![Data](documents/data.png)
+![Data](documents\data.png)
 
 ### Model
 
@@ -92,11 +104,11 @@ Model yang digunakan adalah Random Forest, Logistic Regresion, Decision Tree, da
 
 #### MSE
 
-![mse](documents/mse.png)
+![mse](documents\mse.png)
 
 #### R-Squared
 
-![rsquared](documents/r_squared.png)
+![rsquared](documents\r_squared.png)
 
 #### Kesimpulan
 
