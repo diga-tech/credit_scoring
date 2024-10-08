@@ -94,7 +94,7 @@ Monthly_Balance: Jumlah saldo bulanan.
 
 Credit_Score: Credit score konsumen.
 
-![Data](documents\data.png)
+![Data](documents/data.png)
 
 ### Model
 
@@ -104,11 +104,11 @@ Model yang digunakan adalah Random Forest, Logistic Regresion, Decision Tree, da
 
 #### MSE
 
-![mse](documents\mse.png)
+![mse](documents/mse.png)
 
 #### R-Squared
 
-![rsquared](documents\r_squared.png)
+![rsquared](documents/r_squared.png)
 
 #### Kesimpulan
 
