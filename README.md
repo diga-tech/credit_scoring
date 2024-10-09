@@ -110,11 +110,11 @@ Gradient Boosting merupakan model yang berdasarkan metode ensemble dengan memban
 
 #### MSE
 
-![mse](documents\mse.png)
+![mse](documents/mse.png)
 
 #### R-Squared
 
-![rsquared](documents\r_squared.png)
+![rsquared](documents/r_squared.png)
 
 Dari hasil yang didapat, Model Random Forest dengan Mean Squared Error (MSE) sebesar 0.2027 dan R-squared sebesar 0.5545, menunjukkan bahwa model ini memiliki tingkat kesalahan yang relatif rendah dibandingkan dengan model lainnya. Sebaliknya, Logistic Regression memiliki performa paling rendah dengan MSE sebesar 0.4873 dan R-squared negatif sebesar -0.0711.
 
